@@ -14,25 +14,25 @@ const Projects = () => {
         <ProjectCard
           src="/BookMe website.png"
           title="Resource Booking System"
-          key="https://github.com/VishvaAloka"
+          key="https://github.com/VishvaAloka/Resource-Booking-System"
           description="Welcome to Bookme Resource Booking—your ultimate solution for managing and booking resources effortlessly."
         />
         <ProjectCard
           src="/Deezer website.png"
           title="Online Music Website"
-          key="https://github.com/VishvaAloka"
+          key="https://github.com/VishvaAlokaOnline_Music_Store-2nd-year-1st-sem-project"
           description="Discover a world of endless music possibilities with Deezer, the premier online music streaming service that brings you closer to your favorite songs, artists, and genres."
         />
         <ProjectCard
           src="/Space Portfolio.png"
           title="Space Portfolio"
-          key="https://github.com/VishvaAloka"
+          key="https://github.com/VishvaAloka/My-Portfolio"
           description="This is my personal portfolio. The codebase is built with Vite JS, incorporating Three JS for a smooth user experience."
         />
         <ProjectCard
           src="/FilmLane website.png"
           title="Movie Booking System"
-          key="https://github.com/VishvaAloka"
+          key="https://github.com/VishvaAloka/Movie_Booking_System"
           description="At FilmLane, we’re dedicated to bringing you a seamless and enjoyable movie booking experience."
         />
       </div>
