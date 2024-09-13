@@ -74,13 +74,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Hello! I'm Vishva Aloka, an undergraduate student at the SriLanka
-          Information Institute of Technology, specializing in Information
-          Technology. I approach my assignments with creativity and attention to
-          detail since I am passionate about remaining up to date in the field
-          of web development design. Excited to collaborate with fellow
-          professionals and contribute to innovative initiatives in the IT
-          industry.
+          {
+            "Hello! I'm Vishva Aloka, an undergraduate student at the SriLanka Information Institute of Technology, specializing in Information Technology. I approach my assignments with creativity and attention to detail since I am passionate about remaining up to date in the field of web development design. Excited to collaborate with fellow professionals and contribute to innovative initiatives in the IT industry."
+          }
         </motion.p>
         <motion.a
           href="/CV.pdf"
