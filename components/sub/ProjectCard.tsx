@@ -6,13 +6,13 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  key: string;
+  url: string;
 }
 
-const ProjectCard = ({ src, title, description, key }: Props) => {
+const ProjectCard = ({ src, title, description, url }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <a href={key} target="_blank" rel="noopener noreferrer">
+      <a href={url} target="_blank" rel="noopener noreferrer">
         <Image
           src={src}
           alt={title}
@@ -21,8 +21,8 @@ const ProjectCard = ({ src, title, description, key }: Props) => {
           className="w-full object-contain"
         />
 
-        <div className={key}>
-          <Link href={"https://github.com"}>
+        <div className={url}>
+          <Link href={url}>
             <h1 className="text-2xl font-semibold text-white">{title}</h1>
           </Link>
           <p className="mt-2 text-gray-300">{description}</p>
